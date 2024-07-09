@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Input = styled.input`
-  padding: 1rem 2rem;
+  padding: 1rem 1.3rem;
   font-size: 14px;
   line-height: 20px;
   vertical-align: middle;

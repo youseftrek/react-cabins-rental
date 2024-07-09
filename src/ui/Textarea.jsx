@@ -1,13 +1,23 @@
 import styled from "styled-components";
 
 const Textarea = styled.textarea`
-  padding: 0.8rem 1.2rem;
-  border: 1px solid var(--color-grey-300);
-  border-radius: 5px;
+  padding: 1rem 1.3rem;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
   background-color: var(--color-grey-0);
-  box-shadow: var(--shadow-sm);
-  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid var(--color-grey-300);
+  border-radius: var(--border-radius-sm);
+  outline: none;
+  box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
   height: 8rem;
+
+  &:focus {
+    border-color: var(--color-brand-600);
+    box-shadow: var(--color-brand-op-25) 0px 0px 0px 3px;
+  }
 `;
 
 export default Textarea;
